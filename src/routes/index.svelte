@@ -1,8 +1,8 @@
 <script lang="ts">
 	import { PageMeta } from '$util/meta';
 
-	import { SOCIAL_DISCORD, SOCIAL_TWITTER } from '$constants/socials';
-	import { LINK_WHITEPAPER } from '$constants/links';
+	import { SOCIAL_DISCORD } from '$constants/socials';
+	import { LINK_TRANSLATION_FORM, LINK_TRANSLATOR_FORM, LINK_WHITEPAPER } from '$constants/links';
 </script>
 
 <PageMeta />
@@ -28,17 +28,17 @@
 					<a
 						class="mx-1 font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 uppercase text-sm text-p-white  bg-p-blue-700 shadow-lg"
 						style="transition:all .15s ease"
-						href={SOCIAL_DISCORD}
+						href={LINK_TRANSLATION_FORM}
 						target="_blank"
 					>
-						Join our Discord
+						Request a translation
 					</a>
 					<a
 						class="mx-1 font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 uppercase text-sm  text-p-blue-800 bg-white shadow-lg"
-						href={LINK_WHITEPAPER}
+						href={LINK_TRANSLATOR_FORM}
 						target="_blank"
 					>
-						Read our whitepaper
+						Become a translator
 					</a>
 				</div>
 			</div>
@@ -89,7 +89,7 @@
 						<h1 class="font-semibold mb-2 text-xl text-p-gray-800 ">Languages</h1>
 						<p class="leading-relaxed text-p-gray-700 text-xs ">
 							We can do translations in Chinese, Turkish, Vietnamese, French, Haitian Creole,
-							Croatian, Indonesian, Burmese and growing.
+							Croatian, Portuguese, Indonesian, Burmese and growing.
 						</p>
 					</div>
 				</div>
@@ -108,7 +108,7 @@
 					<div class="px-3 py-3">
 						<h1 class="font-semibold mb-2 text-xl text-p-gray-800 ">Serving Ethereum</h1>
 						<p class="leading-relaxed text-p-gray-700 text-xs ">
-							Our clients include PizzaDAO, PeopleDAO, and PandaDAO.
+							Our clients include CultDAO, PizzaDAO, PeopleDAO, and PandaDAO.
 						</p>
 					</div>
 				</div>
@@ -162,20 +162,32 @@
 					Our core service is translating written content like whitepapers and marketing materials.
 					Additionally, we also interpret conference calls like DAO Twitter Spaces. Web3
 					communication often features technical jargon and regional slang that defy automated
-					translation solutions. Revenue generated from these services funds public goods: free
-					education promoting intercultural exchange, and advocacy to lower language barriers in
-					web3.
+					translation solutions. We utilize verified translators and employ review by native
+					speakers to ensure high quality.
+				</p>
+				<p class="w-full mb-4 text-lg  text-black">
+					Revenue generated from these services funds public goods: free education promoting
+					intercultural exchange, and advocacy to lower language barriers in web3. Read more in our
+					whitepaper.
 				</p>
 				<div
 					class="container mx-auto flex flex-row justify-center md:justify-start text-center py-6"
 				>
 					<a
-						class="text-p-white font-bold px-6 py-4 rounded-full outline-none focus:outline-none mx-1 my-1 text-sm shadow hover:shadow-lg  bg-p-green-600"
+						class="text-p-white font-bold px-6 py-4 rounded-full outline-none focus:outline-none mx-1 my-1 text-sm shadow hover:shadow-lg  bg-p-green-600 uppercase"
 						style="transition:all .15s ease; white-space: nowrap;"
-						href={SOCIAL_TWITTER}
+						href={LINK_WHITEPAPER}
 						target="_blank"
 					>
-						VISIT OUR TWITTER FOR UPDATES
+						Read our whitepaper
+					</a>
+					<a
+						class="font-bold px-6 py-4 rounded-full outline-none focus:outline-none mx-1 my-1 text-sm whitespace-pre-line bg-p-white shadow-md text-p-green-700 uppercase"
+						style="transition:all .15s ease; white-space: nowrap;"
+						href={SOCIAL_DISCORD}
+						target="_blank"
+					>
+						Join our Discord
 					</a>
 				</div>
 			</div>
