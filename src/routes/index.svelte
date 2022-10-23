@@ -20,7 +20,7 @@
 						Making web3 accessible for all languages.
 					</h1>
 				</div>
-				<p class="mb-8 leading-relaxed text-p-gray-700  text-lg">
+				<p class="mb-8 leading-relaxed text-p-gray-700 text-lg">
 					The goal of LanguageDAO is to lower language barriers in web3 by providing translation,
 					interpretation, education, and advocacy.
 				</p>
@@ -81,7 +81,7 @@
 					<h1
 						class="font-bold text-6xl text-p-blue-700  w-24 h-24 flex flex-col justify-center items-center"
 					>
-						8+
+						9+
 					</h1>
 				</div>
 				<div class="pl-4 text-center md:text-left">
@@ -143,7 +143,7 @@
 							class="twitter-timeline"
 							data-width="315"
 							data-height="450"
-							href="https://twitter.com/LanguageDAO?ref_src=languagedao.com"
+							href="https://twitter.com/LanguageDAO?ref_src=twsrc%5Etfw"
 							target="_blank"
 						>
 							Tweets by LanguageDAO</a
