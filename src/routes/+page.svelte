@@ -134,10 +134,7 @@
 						height: 100%;
 					}
 				</style>
-				<div
-					pazly-editable="iframe bg"
-					class="videoWrapper w-full rounded-xl shadow-xl bg-p-truegray-100"
-				>
+				<div class="videoWrapper w-full rounded-xl shadow-xl bg-p-truegray-100">
 					<center>
 						<a
 							class="twitter-timeline"
